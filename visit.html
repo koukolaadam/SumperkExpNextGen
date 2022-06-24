@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Šumperk Exp - Visit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleVisit.css">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="windowFeatures.js"></script>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+</head>
+<body>
+<img src="Images/SumperkExpLogoShort.png" id="logo" alt="logo">
+<nav>
+    <a href="index.html" id="linkHome" class="LinkyNav">Home</a>
+    <a href="visit.html" id="linkVisit" class="LinkyNav">Visit</a>
+    <a href="about.html" id="linkAbout" class="LinkyNav">About</a>
+    <a href="contact.html" id="linkContact" class="LinkyNav">Contact</a>
+</nav>
+
+<div id="hlavniMenu">
+    <h1 id="nadpisMain">Tourists Guide</h1>
+    <p id="podnadpisMain">The only <span>tour guide</span> you'll need in <span>Šumperk</span>.</p>
+    <i class="Arrow Down" onclick="scrollToObject(`visitInfo`)"></i>
+</div>
+
+<div id="visitInfo">
+    <div id="kafe">
+        <h2><span>Wanna coffee?</span></h2>
+        <div id="Pikola" class="coffeeBlock">
+            <h4 class="Header">Pikola</h4>
+            <img alt="kavarnaPikola" src="Images/pikola.png" class="Image">
+            <p class="Description">We are a small Czech family business with lots of good coffee. We have a roastery of selected coffee, a cafe in Šumperk and an espresso bar in Olomouc. We bake our own desserts and run an e-shop with coffee and coffee equipment.</p>
+            <p><a href="https://kafepikola.cz" class="visitButton" target="_blank">More info</a></p>
+        </div>
+        <div id="Kavomilka" class="coffeeBlock">
+            <h4 class="Header">Kávomilka</h4>
+            <img alt="kavomilka" src="Images/kavomilka.png" class="Image">
+            <p class="Description">A small family roastery from the foothills of the Jeseníky Mountains in the very historical heart of the town Šumperk, which is rightly considered the gateway to the Jeseníky mountains.</p>
+            <p><a href="https://kavomilka.cz/" class="visitButton" target="_blank">More info</a></p>
+        </div>
+        <div id="cafeSvet" class="coffeeBlock">
+            <h4 class="Header">Cafe Svět</h4>
+            <img alt="cafeSvet" src="Images/svet.png" class="Image">
+            <p class="Description">Description? Missing... :(</p>
+            <p><a href="https://cs-cz.facebook.com/Caffesvet/" class="visitButton" target="_blank">More info</a></p>
+        </div>
+    </div>
+
+    <div id="food">
+        <h2><span>Wanna food?</span></h2>
+        <div id="JJ" class="foodBlock">
+            <h4 class="Header">Bistro J&J</h4>
+            <img alt="bistroJJ" src="Images/bistro.png" class="Image">
+            <p class="Description">With love and care, we will serve you great food and drinks right in the heart of the Jeseníky Mountains, in our native Šumperk.</p>
+            <p><a href="https://www.facebook.com/BistroJJSumperk/" class="visitButton" target="_blank">More info</a></p>
+        </div>
+        <div id="Istria" class="foodBlock">
+            <h4 class="Header">Pizzeria Istria</h4>
+            <img alt="pizzaIstria" src="Images/istria.png" class="Image">
+            <p class="Description">Discover Istria in the city center of Šumperk. We've been preparing dishes from Italian cuisine for you for 10 years. We carefully select the highest quality ingredients, from which our masters prepare specialties of Italian gastronomy.</p>
+            <p><a href="https://pizzasumperk.cz/" class="visitButton" target="_blank">More info</a></p>
+        </div>
+        <div id="Cakir" class="foodBlock">
+            <h4 class="Header">Cakirs Burger</h4>
+            <img alt="cakirBurger" src="Images/cakir.png" class="Image">
+            <p class="Description">Description? Missing... :(</p>
+            <p><a href="https://www.cakirs.cz/" class="visitButton" target="_blank">More info</a></p>
+        </div>
+    </div>
+
+    <div id="culture">
+        <h2><span>Wanna culture?</span></h2>
+        <div id="divadlo" class="cultureBlock">
+            <h4 class="Header">Šumperk Theatre</h4>
+            <img alt="divadlo" src="Images/theatre.png" class="Image">
+            <p class="Description">Description? Missing... :(</p>
+            <p><a href="https://www.divadlosumperk.cz/" class="visitButton" target="_blank">More info</a></p>
+        </div>
+        <div id="kino" class="cultureBlock">
+            <h4 class="Header">Cinema Oko</h4>
+            <img alt="okokino" src="Images/cinema.png" class="Image">
+            <p class="Description">Description? Missing... :(</p>
+            <p><a href="https://www.kinosumperk.cz/" class="visitButton" target="_blank">More info</a></p>
+        </div>
+        <div id="museum" class="cultureBlock">
+            <h4 class="Header">Museum</h4>
+            <img alt="muzeum" src="Images/museum.png" class="Image">
+            <p class="Description">Description? Missing... :(</p>
+            <p><a href="http://www.muzeum-sumperk.cz/domains/muzeum-sumperk.cz/index.php/cs/" class="visitButton" target="_blank">More info</a></p>
+        </div>
+    </div>
+
+    <div id="travel">
+        <h2><span>Wanna travel?</span></h2>
+        <div id="Train" class="travelBlock">
+            <h4 class="Header">Bus station Šumperk</h4>
+            <img alt="autobusak" src="Images/bus.png" class="Image">
+            <p class="Description">Description? Missing... :(</p>
+            <p><a href="https://www.sumperk.cz/cs/potrebuji-vyridit/komunalni-sluzby/komunikace/jizdni-rady-mhd.html" class="visitButton" target="_blank">More info</a></p>
+        </div>
+        <div id="Bus" class="travelBlock">
+            <h4 class="Header">Train station Šumperk</h4>
+            <img alt="vlaky" src="Images/train.png" class="Image">
+            <p class="Description">Description? Missing... :(</p>
+            <p><a href="https://www.cd.cz/stanice/5434972" class="visitButton" target="_blank">More info</a></p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p id="boldFooter">Made by students of VOŠ a SPŠ Šumperk</p>
+    <p>©2022</p>
+</footer>
+
+</body>
+</html>
